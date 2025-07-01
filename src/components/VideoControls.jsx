@@ -36,23 +36,38 @@ export default function VideoControls({
         <label className="block text-white font-medium">
           Duration per Image: {settings.duration}s
         </label>
-        <div className="relative">
-          <div className="w-full h-2 bg-white/70 rounded-lg"></div>
+        <div className="flex items-center gap-4">
+          <div className="relative flex-1">
+            <div className="w-full h-2 bg-white/70 rounded-lg"></div>
+            <input
+              type="range"
+              min="0.01"
+              max="10"
+              step="0.01"
+              value={settings.duration}
+              onChange={(e) =>
+                handleSettingChange("duration", parseFloat(e.target.value))
+              }
+              className="absolute top-0 w-full h-2 bg-transparent rounded-lg cursor-pointer accent-blue-500"
+            />
+          </div>
+
+          {/* Custom input field */}
           <input
-            type="range"
-            min="0.5"
+            type="number"
+            step="0.01"
+            min="0.01"
             max="10"
-            step="0.5"
             value={settings.duration}
             onChange={(e) =>
               handleSettingChange("duration", parseFloat(e.target.value))
             }
-            className="absolute top-0 w-full h-2 bg-transparent rounded-lg cursor-pointer accent-blue-500"
+            className="w-20 text-sm text-white bg-white/10 border border-white/20 rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-blue-400"
           />
         </div>
 
         <div className="flex justify-between text-xs text-white/60">
-          <span>0.5s</span>
+          <span>0.01s</span>
           <span>10s</span>
         </div>
       </div>
