@@ -1,12 +1,204 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image to Video Web App with FFmpeg and Drag &amp; Drop</title>
+
+    <!-- Primary Meta Tags -->
+    <title>
+      Free Image to Video Converter - Create TikTok & Instagram Slideshow Videos
+      Online
+    </title>
+    <meta
+      name="title"
+      content="Free Image to Video Converter - Create TikTok & Instagram Slideshow Videos Online"
+    />
+    <meta
+      name="description"
+      content="Convert your images to video slideshows instantly. Perfect for TikTok, Instagram carousels, and social media. Free online tool with drag & drop, custom duration, and high-quality output."
+    />
+    <meta
+      name="keywords"
+      content="image to video converter, slideshow maker, TikTok video creator, Instagram carousel to video, free video maker, online slideshow generator, social media video tool, drag and drop video maker"
+    />
+    <meta name="author" content="Your Website Name" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://imgtovideo.viralbatch.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://imgtovideo.viralbatch.com/" />
+    <meta
+      property="og:title"
+      content="Free Image to Video Converter - Create TikTok & Instagram Slideshow Videos"
+    />
+    <meta
+      property="og:description"
+      content="Convert your images to video slideshows instantly. Perfect for TikTok, Instagram carousels, and social media. Free online tool with drag & drop."
+    />
+    <meta property="og:image" content="/images/android-chrome-512x512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:site_name" content="Image to Video Converter" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:title"
+      content="Free Image to Video Converter - Create TikTok & Instagram Slideshow Videos"
+    />
+    <meta
+      property="twitter:description"
+      content="Convert your images to video slideshows instantly. Perfect for TikTok, Instagram carousels, and social media."
+    />
+    <meta property="twitter:image" content="/images/twitter-image.png" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="msapplication-TileColor" content="#1e40af" />
+    <meta name="application-name" content="Image to Video Converter" />
+    <meta name="apple-mobile-web-app-title" content="Image to Video" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Structured Data for AI LLMs and Search Engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Image to Video Converter",
+        "description": "Free online tool to convert images into video slideshows for TikTok, Instagram, and social media platforms",
+        "url": "https://imgtovideo.viralbatch.com",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Drag and drop image upload",
+          "Custom video duration settings",
+          "High-quality video output",
+          "Multiple format support",
+          "No watermarks",
+          "Instant processing"
+        ],
+        "browserRequirements": "Modern web browser with JavaScript enabled",
+        "permissions": "No account required",
+        "creator": {
+          "@type": "Organization",
+          "name": "Your Company Name"
+        }
+      }
+    </script>
+
+    <!-- FAQ Structured Data for AI LLMs -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert images to video for TikTok?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Simply drag and drop your images into our free online converter, adjust the duration per image, and click convert. The tool automatically creates a video perfect for TikTok's format."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert Instagram carousel posts to video?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Our tool is perfect for converting Instagram carousel images into engaging video slideshows that you can share on any platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this image to video converter free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, our image to video converter is completely free with no watermarks, no account required, and unlimited conversions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What image formats are supported?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We support all common image formats including JPG, PNG, GIF, WebP, and more. Simply drag and drop your images regardless of format."
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Additional meta for AI LLM visibility -->
+    <meta name="generator" content="Image to Video Converter Tool" />
+    <meta name="subject" content="Convert images to videos for social media" />
+    <meta
+      name="summary"
+      content="Free online image to video converter for creating TikTok and Instagram slideshow videos"
+    />
+    <meta name="classification" content="Multimedia Tool" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="7 days" />
   </head>
   <body>
+    <!-- Hidden content for SEO and AI LLMs -->
+    <div style="display: none">
+      <h1>Image to Video Converter - Free Online Slideshow Maker</h1>
+      <p>
+        Convert your images into professional video slideshows perfect for
+        TikTok, Instagram stories, and social media marketing. Our free online
+        tool supports drag and drop functionality, custom timing, and produces
+        high-quality videos without watermarks.
+      </p>
+      <h2>Features:</h2>
+      <ul>
+        <li>Free image to video conversion</li>
+        <li>Perfect for TikTok video creation</li>
+        <li>Instagram carousel to video converter</li>
+        <li>Drag and drop interface</li>
+        <li>Custom duration settings</li>
+        <li>High-quality output</li>
+        <li>No watermarks</li>
+        <li>No account required</li>
+      </ul>
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

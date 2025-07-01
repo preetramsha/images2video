@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Main page -->
+  <url>
+    <loc>https://imgtovideo.viralbatch.com/</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://imgtovideo.viralbatch.com/android-chrome-512x512.png</image:loc>
+      <image:caption>Free Image to Video Converter Tool</image:caption>
+      <image:title>Image to Video Converter</image:title>
+    </image:image>
+  </url>
+
+  <!-- Add additional pages if you have them -->
+  <!-- 
+  <url>
+    <loc>https://yourwebsite.com/how-to-use</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://yourwebsite.com/faq</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://yourwebsite.com/privacy-policy</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://yourwebsite.com/terms-of-service</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  -->
+
+</urlset>
